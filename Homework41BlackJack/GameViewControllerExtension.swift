@@ -105,7 +105,7 @@ extension GameViewController{
                     myProperty = 1000
                 }
             }
-            betTotalLabel.text = "$\(myProperty)"
+//            betTotalLabel.text = "$\(myProperty)"
         }
     }
     //開牌
@@ -143,7 +143,7 @@ extension GameViewController{
                     }
                 }
             }
-            betTotalLabel.text = "$\(myProperty)"
+//            betTotalLabel.text = "$\(myProperty)"
         }else{
             if CPUSum < mySum{
                 gameAlert(title: "恭喜", message: "\(mySum)大於\(CPUSum)")
@@ -159,7 +159,7 @@ extension GameViewController{
             }else{
                 gameAlert(title: "平手", message: "下一局")
             }
-            betTotalLabel.text = "$\(myProperty)"
+//            betTotalLabel.text = "$\(myProperty)"
         }
     }
     

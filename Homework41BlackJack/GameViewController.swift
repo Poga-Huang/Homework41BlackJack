@@ -62,14 +62,17 @@ class GameViewController: UIViewController {
         }
         return mySum
     }
+    var myProperty:Int = 1000{
+        didSet{
+            betTotalLabel.text = "$\(myProperty)"
+        }
+    }
     
     //牌組變數
-    
     var cards = [Card]()
     var CPUCards = [Card]()
     var myCards = [Card]()
     //初始籌碼
-    var myProperty = 1000
     var index = 1
     
     
